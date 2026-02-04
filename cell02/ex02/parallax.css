@@ -1,0 +1,84 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dropbtn {
+    background-color: rgba(0, 136, 206, 0.9);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-content a:hover { background-color: #f1f1f1; }
+
+
+
+.section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+.bg-image-1 {
+    background-image: url('https://picsum.photos/id/15/1920/1080'); 
+}
+
+
+.black-block {
+    background-color: #000;
+    color: white;
+}
+
+
+.bg-image-2 {
+    background-image: url('https://picsum.photos/id/49/1920/1080');
+}
+
+
+.center-message {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.black-block .center-message {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
