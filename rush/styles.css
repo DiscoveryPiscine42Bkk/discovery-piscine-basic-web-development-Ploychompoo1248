@@ -64,7 +64,7 @@ h2 {
     margin-top: 0;
 }
 
-/* สไตล์หัวข้อของแต่ละ Section */
+
 .section-title {
     text-align: center;
     font-size: 3em;
@@ -73,7 +73,7 @@ h2 {
     position: relative;
 }
 
-/* เพิ่มเส้นขีดใต้หัวข้อ */
+
 .section-title::after {
     content: '';
     display: block;
@@ -84,23 +84,23 @@ h2 {
     border-radius: 2px;
 }
 
-/* ================= PART 1: ABOUT ================= */
+
 #part1 {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 100px 20px; /* เพิ่ม padding ด้านบนเผื่อเมนู */
+    padding: 100px 20px; 
     gap: 60px;
 }
 
 .pimg {
     width: 400px;
-    height: 400px; /* กำหนดความสูงให้เป็นสี่เหลี่ยมจัตุรัส */
-    object-fit: cover; /* ป้องกันรูปเบี้ยว */
+    height: 400px; 
+    object-fit: cover; 
     border: 5px solid white;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15); /* เงาที่นุ่มนวลขึ้น */
-    border-radius: 30px; /* ขอบมน */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+    border-radius: 30px; 
 }
 
 .divtext {
@@ -121,7 +121,7 @@ h2 {
 
 .education i {
     margin-right: 15px;
-    color: #DDAED3; /* สีไอคอนหมวกปริญญา */
+    color: #DDAED3; 
     font-size: 1.3em;
 }
 
